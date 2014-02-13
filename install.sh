@@ -8,6 +8,11 @@ xcode-select --install
 echo "installing homebrew"
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
+# clone dotfiles
+echo "closning .dotfiles"
+git clone https://github.com/neonstalwart/.dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+
 # install brew bundle from Brewfile
 echo "installing brew bundle"
 brew bundle
