@@ -6,3 +6,4 @@ install dnsmasq
 # TODO: customize config files
 install nginx 
 install zsh
+install tree
