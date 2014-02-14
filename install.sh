@@ -9,7 +9,7 @@ echo "installing homebrew"
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # clone dotfiles
-echo "closning .dotfiles"
+echo "cloning .dotfiles"
 git clone https://github.com/neonstalwart/.dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 

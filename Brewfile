@@ -1,5 +1,8 @@
 install git
-install hub # TODO: alias git to hub?
-install dnsmasq # TODO: configure osx
-install nginx # TODO: customize config files
+# TODO: alias git to hub?
+install hub 
+# TODO: configure osx
+install dnsmasq 
+# TODO: customize config files
+install nginx 
 install zsh

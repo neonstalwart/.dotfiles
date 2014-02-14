@@ -1,0 +1,5 @@
+dnsmasq.conf
+dnsmasq launchd
+nginx config
+nginx launchd (as sudo so it runs on :80) - does apache need to be disabled?
+.zshenv file
