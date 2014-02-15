@@ -42,6 +42,8 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 echo "linking dotfiles"
 ln -s ~/.dotfiles/zshenv ~/.zshenv
 ln -s ~/.dotfiles/zshrc ~/.zshrc
+ln -s ~/.dotfiles/vim ~/.vim
+ln -s ~/.dotfiles/vimrc ~/.vimrc
 
 # change shells
 chsh -s $ZSHPATH
