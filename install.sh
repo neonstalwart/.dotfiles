@@ -27,7 +27,7 @@ source zshenv
 # install node
 echo "installing node"
 nvm install 0.10
-nvm use 0.10
+nvm alias default 0.10
 
 # add zsh to etc/shells
 echo "adding $(which zsh) to /etc/shells"
