@@ -30,13 +30,20 @@ nvm install 0.10
 nvm alias default 0.10
 
 # add zsh to etc/shells
-echo "adding $(which zsh) to /etc/shells"
-sudo -s "echo $(which zsh) >> /etc/shells"
+ZSHPATH=$(which zsh)
+echo "adding $ZSHPATH to /etc/shells"
+sudo -s "echo $ZSHPATH >> /etc/shells"
 
 # oh-my-zsh
 echo "installing oh-my-zsh"
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # install zsh startup files
-cp zshenv ~/.zshenv
-cp zshrc ~/.zshrc
+echo "linking dotfiles"
+ln -s zshenv ~/.zshenv
+ln -s zshrc ~/.zshrc
+
+# change shells
+echo "switching shells"
+chsh -s $ZSHPATH
+/usr/bin/env zsh
