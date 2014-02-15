@@ -40,10 +40,9 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # install zsh startup files
 echo "linking dotfiles"
-ln -s zshenv ~/.zshenv
-ln -s zshrc ~/.zshrc
+ln -s ~/.dotfiles/zshenv ~/.zshenv
+ln -s ~/.dotfiles/zshrc ~/.zshrc
 
 # change shells
-echo "switching shells"
 chsh -s $ZSHPATH
 /usr/bin/env zsh
