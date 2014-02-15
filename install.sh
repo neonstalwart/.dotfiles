@@ -45,4 +45,3 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 
 # change shells
 chsh -s $ZSHPATH
-/usr/bin/env zsh
