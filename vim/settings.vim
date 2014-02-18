@@ -1,11 +1,8 @@
 "Reload ~/.vimrc when it's edited
-autocmd! bufwritepost .vimrc,*.vim source ~/.vimrc
+autocmd! bufwritepost vimrc,*.vim source ~/.vimrc
 
 "Enable plugins and indenting per filetype
 filetype indent plugin on
-
-"Syntax highlighting
-syntax on
 
 "Indent new line based on previous
 set autoindent
@@ -13,8 +10,8 @@ set autoindent
 "Reload files changed outside of vim
 set autoread
 
-"
-set background=dark
+" No backups needed
+set nobackup
 
 "Yank to system clipboard
 set clipboard=unnamed
@@ -36,6 +33,9 @@ set hlsearch
 "Remember lots of commands
 set history=700
 
+"Ignore case when searching
+set ignorecase
+
 "Show incremental matches when searching
 set incsearch
 
@@ -43,8 +43,11 @@ set incsearch
 set list 
 set listchars=tab:▸-,trail:~,eol:¶,precedes:<,extends:>
 
-"Don't wrap long lines
-set nowrap
+"Show matching bracket in 300ms
+set matchtime=3
+
+"Ignore modelines
+set nomodeline
 
 "Show line numbers
 set number
@@ -58,11 +61,41 @@ set scrolloff=6
 "Prevent local .vimrc files being unsafe
 set secure
 
-"Ignore case when pattern is only lowercase letters
+"Shift to multiple of shiftwidth
+set shiftround
+
+"Number of spaces for each indent
+set shiftwidth=4
+
+" Show commands as they are entered
+set showcmd
+
+"Show matching brackets
+set showmatch
+
+" Show mode
+set showmode
+
+"Respect case when search patterns contains upper case characters
 set smartcase
+
+"Smart autoindenting
+set smartindent
+
+"<Tab> inserts blanks according to shiftwidth
+set smarttab
+
+"Put new window below
+set splitbelow
+
+"Put new window to right
+set splitright
 
 "Tabs are 4 chars
 set tabstop=4
 
 "Better completion
 set wildmenu
+
+"Don't wrap long lines
+set nowrap
