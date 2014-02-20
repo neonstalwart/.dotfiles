@@ -40,8 +40,8 @@ set ignorecase
 set incsearch
 
 "Show hidden characters
-set list 
-set listchars=tab:▸-,trail:~,eol:¶,precedes:<,extends:>
+set list
+set listchars=tab:╶─,trail:~,precedes:«,extends:»
 
 "Show matching bracket in 300ms
 set matchtime=3
@@ -90,6 +90,9 @@ set splitbelow
 
 "Put new window to right
 set splitright
+
+" no need for a swap file
+set noswapfile
 
 "Tabs are 4 chars
 set tabstop=4
