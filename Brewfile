@@ -7,3 +7,4 @@ install dnsmasq
 install nginx 
 install zsh
 install tree
+install vim
