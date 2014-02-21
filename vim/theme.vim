@@ -1,5 +1,4 @@
 " Set the color scheme
-" TODO: get base16-tomorrow working
 colorscheme mustang
 
 " Ensure 256 colors
