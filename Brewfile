@@ -10,3 +10,4 @@ install tree
 install vim
 install tmux
 install reattach-to-user-namespace
+install the_silver_searcher

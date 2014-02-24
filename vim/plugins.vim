@@ -18,3 +18,6 @@ Bundle 'kien/ctrlp.vim'
 
 " Markdown highlighting
 Bundle 'tpope/vim-markdown'
+
+" Silver searcher
+Bundle 'rking/ag.vim'
