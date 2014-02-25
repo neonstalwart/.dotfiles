@@ -11,3 +11,6 @@ set background=dark
 syntax on
 
 highlight CursorLine cterm=none ctermbg=darkgrey
+
+" Stop beeping
+set noerrorbells visualbell t_vb=
