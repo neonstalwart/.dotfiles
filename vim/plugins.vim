@@ -21,3 +21,9 @@ Bundle 'rking/ag.vim'
 
 " Linting
 Bundle 'scrooloose/syntastic'
+
+" Git gutter
+Bundle 'airblade/vim-gitgutter'
+
+" Status bar
+Bundle 'bling/vim-airline'
