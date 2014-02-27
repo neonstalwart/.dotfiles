@@ -4,9 +4,6 @@ Bundle 'gmarik/vundle'
 " Some themes
 Bundle 'croaker/mustang-vim'
 
-" Toggle relative line numbers
-Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-
 " block commenting
 Bundle 'scrooloose/nerdcommenter'
 
@@ -21,3 +18,6 @@ Bundle 'tpope/vim-markdown'
 
 " Silver searcher
 Bundle 'rking/ag.vim'
+
+" Linting
+Bundle 'scrooloose/syntastic'

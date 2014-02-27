@@ -89,6 +89,9 @@ set shiftround
 " Number of spaces for each indent
 set shiftwidth=4
 
+" Don't show the welcome screen
+set shortmess+=I
+
 " Show commands as they are entered
 set showcmd
 
