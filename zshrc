@@ -25,7 +25,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew node npm osx bower nvm)
+plugins=(git brew node npm terminalapp osx sublime bower nvm vundle)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -43,6 +43,9 @@ export EDITOR=vim
 export LESS="-FgmRX -x4"
 
 export MANPAGER=less
+
+# get cpm working on mac
+export CPM_PATH=/usr/local/lib/cpm
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
