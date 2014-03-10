@@ -16,3 +16,6 @@ nnoremap <leader>t :CtrlP<cr>
 
 " Simplify searching across multiple files
 noremap <leader>/ :Ag!<space>
+
+" Faster save
+nnoremap <leader>w :update<cr>

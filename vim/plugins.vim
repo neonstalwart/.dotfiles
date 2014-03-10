@@ -27,3 +27,6 @@ Bundle 'airblade/vim-gitgutter'
 
 " Status bar
 Bundle 'bling/vim-airline'
+
+" Change surrounding characters
+Bundle 'tpope/vim-surround'
