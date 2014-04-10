@@ -30,3 +30,9 @@ Bundle 'bling/vim-airline'
 
 " Change surrounding characters
 Bundle 'tpope/vim-surround'
+
+" Make repeat work for some plugins
+Bundle 'tpope/vim-repeat'
+
+" Stylus syntax highlighting
+Bundle 'wavded/vim-stylus'
