@@ -13,6 +13,9 @@ autocmd BufReadPost *
 " Trim whitespace on leaving insert mode
 autocmd InsertLeave * call StripTrailingWhite()
 
+" Set the right filetype for json files
+autocmd BufRead,BufNewFile *.json set filetype=json
+
 " Enable plugins and indenting per filetype
 filetype indent plugin on
 
