@@ -4,7 +4,7 @@ install hub
 # TODO: configure osx
 install dnsmasq
 # TODO: customize config files
-install nginx
+install nginx --with-debug
 install zsh
 install tree
 install vim
