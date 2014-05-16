@@ -68,6 +68,9 @@ set incsearch
 set list
 set listchars=tab:╶─,trail:~,precedes:«,extends:»
 
+" let the status line show without splits
+set laststatus=2
+
 " Show matching bracket in 300ms
 set matchtime=3
 
@@ -125,11 +128,15 @@ set noswapfile
 " Tabs are 4 chars
 set tabstop=4
 
+" Use line length as 120 chars
+set textwidth=120
+
 " Better completion
 set wildmenu
 
+set wrapmargin=2
 " Don't wrap long lines
-set nowrap
+"set nowrap
 
 " No need to backup when writing
 set nowritebackup

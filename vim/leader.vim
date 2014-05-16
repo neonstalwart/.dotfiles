@@ -21,5 +21,7 @@ nnoremap <leader>t :CtrlP<cr>
 noremap <leader>/ :Ag!<space>
 
 " Faster save
-nnoremap <leader>w :update<cr>
 nnoremap <leader><leader> :update<cr>
+
+" Graph of undo tree
+nnoremap <leader>u :GundoToggle<CR>

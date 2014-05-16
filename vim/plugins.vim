@@ -25,9 +25,6 @@ Bundle 'scrooloose/syntastic'
 " Git gutter
 Bundle 'airblade/vim-gitgutter'
 
-" Status bar
-Bundle 'bling/vim-airline'
-
 " Change surrounding characters
 Bundle 'tpope/vim-surround'
 
@@ -36,3 +33,18 @@ Bundle 'tpope/vim-repeat'
 
 " Stylus syntax highlighting
 Bundle 'wavded/vim-stylus'
+
+" JSON highlighting
+Bundle 'JSON.vim'
+
+" Fancy status line
+Bundle 'itchyny/lightline.vim'
+
+" Undo graph
+Bundle 'sjl/gundo.vim'
+
+" Git tools
+"Bundle 'tpope/vim-fugitive'
+
+" Auto-add closing delimiters
+Bundle 'Raimondi/delimitMate'
