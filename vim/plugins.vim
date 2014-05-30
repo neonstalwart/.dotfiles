@@ -2,7 +2,7 @@
 Bundle 'gmarik/vundle'
 
 " Some themes
-Bundle 'croaker/mustang-vim'
+Bundle 'altercation/vim-colors-solarized'
 
 " block commenting
 Bundle 'scrooloose/nerdcommenter'
@@ -40,11 +40,8 @@ Bundle 'JSON.vim'
 " Fancy status line
 Bundle 'itchyny/lightline.vim'
 
-" Undo graph
-Bundle 'sjl/gundo.vim'
-
 " Git tools
-"Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fugitive'
 
 " Auto-add closing delimiters
 Bundle 'Raimondi/delimitMate'

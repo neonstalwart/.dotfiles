@@ -84,7 +84,7 @@ set number
 set ruler
 
 " Start scrolling before the cursor reaches edge of viewport
-set scrolloff=6
+set scrolloff=3
 
 " Prevent local .vimrc files being unsafe
 set secure
@@ -136,7 +136,7 @@ set wildmenu
 
 set wrapmargin=2
 " Don't wrap long lines
-"set nowrap
+set nowrap
 
 " No need to backup when writing
 set nowritebackup
