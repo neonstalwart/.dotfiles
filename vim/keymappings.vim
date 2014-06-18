@@ -12,3 +12,6 @@ map <silent> <C-l> :call WinMove('l')<cr>
 
 " Use tab to autocomplete
 inoremap <Tab> <C-R>=CleverTab()<CR>
+
+" gp will select pasted text in same visual mode used to select it
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
