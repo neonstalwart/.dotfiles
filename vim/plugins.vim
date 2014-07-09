@@ -45,3 +45,9 @@ Bundle 'tpope/vim-fugitive'
 
 " Auto-add closing delimiters
 Bundle 'Raimondi/delimitMate'
+
+" More effective JS syntax highlighting
+Bundle 'jelera/vim-javascript-syntax'
+
+" Close all buffers except current one
+Bundle 'schickling/vim-bufonly'
