@@ -19,7 +19,7 @@ brew bundle
 
 # install nvm
 echo "installing nvm"
-curl -L https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl -L https://rawgit.com/creationix/nvm/master/install.sh | sh
 
 # initialize nvm
 source zshenv
