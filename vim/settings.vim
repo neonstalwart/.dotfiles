@@ -16,6 +16,9 @@ autocmd InsertLeave * call StripTrailingWhite()
 " Set the right filetype for json files
 autocmd BufRead,BufNewFile *.json set filetype=json
 
+" Set git commit messages to have textwidth of 72
+autocmd FileType gitcommit setlocal tw=72
+
 " Enable plugins and indenting per filetype
 filetype indent plugin on
 
