@@ -47,6 +47,7 @@ ln -s ~/.dotfiles/vimrc ~/.vimrc
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/tmux ~/.tmux
 ln -s ~/.dotfiles/agignore ~/.agignore
+ln -s ~/.dotfiles/cgdb ~/.cgdb
 
 # change shells
 chsh -s $ZSHPATH

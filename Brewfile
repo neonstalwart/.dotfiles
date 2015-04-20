@@ -11,3 +11,4 @@ install vim
 install tmux
 install reattach-to-user-namespace
 install the_silver_searcher
+install go

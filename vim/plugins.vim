@@ -1,53 +1,56 @@
 " Use vundle to keep itself up-to-date
-Plugin 'gmarik/vundle'
+Bundle 'gmarik/vundle'
 
 " Some themes
-Plugin 'altercation/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
 
 " block commenting
-Plugin 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdcommenter'
 
 " File tree
-Plugin 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdtree'
 
 " Fuzzy file finder
-Plugin 'kien/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 
 " Markdown highlighting
-Plugin 'tpope/vim-markdown'
+Bundle 'tpope/vim-markdown'
 
 " Silver searcher
-Plugin 'rking/ag.vim'
+Bundle 'rking/ag.vim'
 
 " Linting
-Plugin 'scrooloose/syntastic'
+Bundle 'scrooloose/syntastic'
 
 " Git gutter
-Plugin 'airblade/vim-gitgutter'
+Bundle 'airblade/vim-gitgutter'
 
 " Change surrounding characters
-Plugin 'tpope/vim-surround'
+Bundle 'tpope/vim-surround'
 
 " Make repeat work for some plugins
-Plugin 'tpope/vim-repeat'
+Bundle 'tpope/vim-repeat'
 
 " Stylus syntax highlighting
-Plugin 'wavded/vim-stylus'
+Bundle 'wavded/vim-stylus'
 
 " JSON highlighting
-Plugin 'JSON.vim'
+Bundle 'JSON.vim'
 
 " Fancy status line
-Plugin 'itchyny/lightline.vim'
+Bundle 'itchyny/lightline.vim'
 
 " Git tools
-Plugin 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fugitive'
 
 " Auto-add closing delimiters
-Plugin 'Raimondi/delimitMate'
+Bundle 'Raimondi/delimitMate'
 
 " More effective JS syntax highlighting
-Plugin 'jelera/vim-javascript-syntax'
+Bundle 'jelera/vim-javascript-syntax'
 
 " Close all buffers except current one
-Plugin 'schickling/vim-bufonly'
+Bundle 'schickling/vim-bufonly'
+
+" golang support
+Bundle 'fatih/vim-go'

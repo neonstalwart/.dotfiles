@@ -1,0 +1,15 @@
+:set arrowstyle=highlight
+:set tabstop=4
+:set winminheight=4
+:set winsplit=top_big
+
+:map r :run<CR>
+:map c :continue<CR>
+:map f :finish<CR>
+:map \ :next<CR>
+:map s :step<CR>
+:map t o/
+:map w iwhere<CR><ESC>
+:map p ip
+
+:highlight SelectedLineNr cterm=reverse ctermfg=Yellow ctermbg=Black
