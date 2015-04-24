@@ -2,7 +2,7 @@
 set t_Co=256
 
 " Light or dark background
-set background=dark
+set background=light
 
 " Turn on syntax highlighting
 syntax on
