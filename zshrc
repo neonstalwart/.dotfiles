@@ -1,35 +1,24 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+PURE_GIT_PULL=0
+PURE_PROMPT_SYMBOL="`whoami`@`hostname`>"
+source ~/.antigen/antigen.zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="jreese"
+antigen use oh-my-zsh
 
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+antigen bundle git
+antigen bundle brew
+antigen bundle node
+antigen bundle npm
+antigen bundle osx
+antigen bundle bower
+antigen bundle nvm
+antigen bundle vundle
+antigen bundle vagrant
 
-# Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+antigen bundle sindresorhus/pure
+antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
+antigen apply
 
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-COMPLETION_WAITING_DOTS="true"
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew node npm terminalapp osx sublime bower nvm vundle)
-
-source $ZSH/oh-my-zsh.sh
-
-# Customize to your needs...
 unsetopt sharehistory
 export EDITOR=vim
 

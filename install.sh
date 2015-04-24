@@ -34,9 +34,9 @@ ZSHPATH=$(which zsh)
 echo "adding $ZSHPATH to /etc/shells"
 sudo -s "echo $ZSHPATH >> /etc/shells"
 
-# oh-my-zsh
-echo "installing oh-my-zsh"
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+# antigen
+echo "installing antigen"
+git clone https://github.com/zsh-users/antigen.git ~/.antigen
 
 # install zsh startup files
 echo "linking dotfiles"
