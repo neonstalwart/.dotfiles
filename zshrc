@@ -1,5 +1,4 @@
-PURE_GIT_PULL=0
-PURE_PROMPT_SYMBOL="`whoami`@`hostname`>"
+PURE_PROMPT_SYMBOL="`whoami`@`hostname`❯"
 source ~/.antigen/antigen.zsh
 
 antigen use oh-my-zsh
