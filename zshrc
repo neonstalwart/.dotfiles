@@ -13,6 +13,7 @@ antigen bundle nvm
 antigen bundle vundle
 antigen bundle vagrant
 
+antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 antigen bundle zsh-users/zsh-syntax-highlighting
 
